@@ -1,0 +1,115 @@
+ros-dashing-rosauth (2.0.1-1bionic) bionic; urgency=high
+
+  * add missing test dependency
+
+ -- Rein Appeldoorn <rein@eurotec.com>  Thu, 19 Sep 2019 07:00:00 -0000
+
+ros-dashing-rosauth (2.0.0-1bionic) bionic; urgency=high
+
+  * Port to ROS 2
+
+ -- Rein Appeldoorn <rein@eurotec.com>  Thu, 19 Sep 2019 07:00:00 -0000
+
+ros-dashing-rosauth (1.0.1-1bionic) bionic; urgency=high
+
+  * Fix buffer overrun (#19 <https://github.com/GT-RAIL/rosauth/issues/19>)
+  * enable Windows build (#25 <https://github.com/GT-RAIL/rosauth/issues/25>)
+  * Contributors: Atsushi Watanabe, James Xu
+
+ -- Rein Appeldoorn <rein@eurotec.com>  Mon, 02 Sep 2019 07:00:00 -0000
+
+ros-dashing-rosauth (1.0.0-1bionic) bionic; urgency=high
+
+  * chore: Update README, Author, maintainer
+  * fix: rostest test dependency (#26 <https://github.com/GT-RAIL/rosauth/issues/26>)
+  * new: parameters in node namespace (#22 <https://github.com/GT-RAIL/rosauth/issues/22>)
+  * new: parameter for allowed_time_delta (#24 <https://github.com/GT-RAIL/rosauth/issues/24>)
+  * Industrial CI ROS kinetic, melodic
+  * Use package format 2
+  * Contributors: David Kent, Dirk Thomas, Rein Appeldoorn, Russell Toris
+
+ -- Rein Appeldoorn <rein@eurotec.com>  Fri, 30 Aug 2019 07:00:00 -0000
+
+ros-dashing-rosauth (0.1.7-1bionic) bionic; urgency=high
+
+  * Merge pull request #8 from ckrooss/develop
+    Added gencpp-dependency for test target
+  * Added gencpp-dependency for test target
+  * Contributors: Russell Toris, ckrooss
+
+ -- Rein Appeldoorn <rein@eurotec.com>  Mon, 10 Aug 2015 07:00:00 -0000
+
+ros-dashing-rosauth (0.1.6-1bionic) bionic; urgency=high
+
+  * Merge pull request #5 from cottsay/hydro-devel
+    missing libssl-dev during build
+  * Added libssl-dev to build_depend
+  * Contributors: Russell Toris, Scott K Logan
+
+ -- Rein Appeldoorn <rein@eurotec.com>  Tue, 24 Mar 2015 07:00:00 -0000
+
+ros-dashing-rosauth (0.1.5-1bionic) bionic; urgency=high
+
+  * Merge pull request #6 from forouher/develop
+    add missing catkin dependencies
+  * add missing catkin dependencies
+  * Now runs hydro and groovy
+  * fixed dox file
+  * Contributors: Dariush Forouher, Russell Toris
+
+ -- Rein Appeldoorn <rein@eurotec.com>  Tue, 02 Dec 2014 08:00:00 -0000
+
+ros-dashing-rosauth (0.1.4-1bionic) bionic; urgency=high
+
+  * dox file fixed
+  * authors file added
+  * travis now runs tests
+  * cleanup for indigo
+  * Merge branch 'hydro-devel' of github.com:WPI-RAIL/rosauth into develop
+  * Merge pull request #4 <https://github.com/WPI-RAIL/rosauth/issues/4> from FriedCircuits/hydro-devel
+    Add IF for rostest
+  * Add IF for rostest
+  * switched to sha512
+  * bug in rosauth fixed
+  * Contributors: Russell Toris, William
+
+ -- Rein Appeldoorn <rein@eurotec.com>  Thu, 03 Apr 2014 07:00:00 -0000
+
+ros-dashing-rosauth (0.1.3-1bionic) bionic; urgency=high
+
+  * possible cmake fix
+  * test cmake fix
+  * test cmake fix
+  * Contributors: Russell Toris
+
+ -- Rein Appeldoorn <rein@eurotec.com>  Wed, 01 May 2013 07:00:00 -0000
+
+ros-dashing-rosauth (0.1.2-1bionic) bionic; urgency=high
+
+  * Merge pull request #1 <https://github.com/WPI-RAIL/rosauth/issues/1> from rctoris/groovy-devel
+    ros_hash_authentication renamed to ros_mac_authentication
+  * ros_hash_authentication renamed to ros_mac_authentication
+  * Contributors: Russell Toris
+
+ -- Rein Appeldoorn <rein@eurotec.com>  Tue, 12 Mar 2013 07:00:00 -0000
+
+ros-dashing-rosauth (0.1.1-1bionic) bionic; urgency=high
+
+  * version 0.1.1 of rosauth
+  * Contributors: Russell Toris
+
+ -- Rein Appeldoorn <rein@eurotec.com>  Mon, 28 Jan 2013 07:15:00 -0000
+
+ros-dashing-rosauth (0.1.0-1bionic) bionic; urgency=high
+
+  * dependencies fixed
+  * catkin release
+  * test cases added
+  * test cases added
+  * initial import
+  * Create README
+  * Contributors: Russell Toris
+
+ -- Rein Appeldoorn <rein@eurotec.com>  Sun, 27 Jan 2013 18:33:00 -0000
+
+
